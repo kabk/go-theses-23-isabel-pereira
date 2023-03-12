@@ -467,10 +467,12 @@ z-index: 1;
     padding-left: 3vw;
     }
 
-img {
-      position: relative;
+ 
+
+   img {
+    position: relative;
     width: 100%; /* set the width of each image to 200px */
-    padding: 3vW;
+    padding: 3vw;
     grid-area: 0.5rem;
 
   }
@@ -499,27 +501,12 @@ img {
 
   }
 
-  img.bg{
-    position: absolute;
-    width: 100%;
-    padding-top: 2rem;
-    z-index: 0;
-    float: left;
-    margin-left: 0vw;
-    }
-
 
 main{
   display: block;
   width: 100%;
 }
 
-  .container img{
-    float: right ;
-    width: 35%;
-    display: none;
-  }
-  
 
   .test {
     /* display: flex; */
