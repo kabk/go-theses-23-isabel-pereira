@@ -206,31 +206,6 @@ a.tooltip-ref:hover + .is-tooltip{
   display:block;
 }
 
-.titleHeader {
-  display: inline-block;
-
-}
-
-h1.titleHeader {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 8rem;
-  padding-left: 1vw;
-  padding-left: 1vw;
-  margin-top: 0.8rem;
-  z-index: 1;
-}
-
-h2.titleHeader {
-  font-family: 'Inter', sans-serif;
-  font-weight:  700;
-  font-style: italic;
-  font-size: 1.2rem;
-  padding-left: 2.0vw;
-  z-index: 3;
-
-}
-
 .mainText p{
   padding-right: 35vw;
   padding-left: 5vw;
@@ -265,6 +240,32 @@ h2.titleHeader {
     }
 
 .mainText img { display: none }
+
+.titleHeader {
+  display: block;
+  }
+
+h1.titleHeader {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-top: 2.5rem;
+  padding-left: 5vw;
+  z-index: 1;
+  line-height: 1rem;
+}
+
+h2.titleHeader {
+  font-family: 'Inter', sans-serif;
+  font-weight:  700;
+  font-size: 1rem;
+  padding-left: 1vw;
+  z-index: 1;
+  line-height: 1rem;
+  margin-top: 0.8rem;
+  padding-left: 5vw;
+}
+
 
 .test {
   /* display: flex; */
@@ -457,12 +458,25 @@ z-index: 1;
     display: block;
   }
 
+  .mainText p {
+    /* paragraph style */
+    font-family: 'Inter', sans-serif; 
+    font-weight: 500;   
+    margin: 1.5vw;
+    text-align: justify;
+
+    }
+
+  .mainText{
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+
   h1.titleHeader {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
-    padding-right: 0rem;
-    text-align: center;  
 }
   
   h2.titleHeader {
@@ -470,29 +484,22 @@ z-index: 1;
     font-weight:  700;
     font-style: italic;
     font-size: 1rem;
-    margin-top: -0.8rem;
+  }
+
+  h2 {
+    margin: 1.5vw;
+
   }
 
   img.bg{
     position: absolute;
     width: 100%;
-    padding-top: 23rem;
+    padding-top: 2rem;
     z-index: 0;
+    float: left;
+    margin-left: 0vw;
     }
 
-  p {
-    /* paragraph style */
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin: 0rem;
-     /* Justify text with a last line aligned left */
-        
-  }
-
-  .mainText{
-    margin-top: 4.5rem;
-    width: 100%;
-  }
 
 main{
   display: block;
@@ -502,13 +509,16 @@ main{
   .container img{
     float: right ;
     width: 35%;
-    display: none
+    display: none;
   }
 
   img {
     width: 200px; /* set the width of each image to 200px */
     margin-right: 0px; /* add a margin of 10px to the right of each image */
     margin-bottom: 10px; /* add a margin of 10px to the bottom of each image */
+    margin-left: 6vw;
+    grid-area: 0.5rem;
+
   }
   
 
@@ -546,10 +556,6 @@ h4 {
   color: black;
 }
 
-.title {
-margin-left: 0.4em;
-
-}
 
 .footnotes {
 
