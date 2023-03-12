@@ -92,7 +92,7 @@ img.bg{
 position: absolute;
 width: 100%;
 padding-top: 14rem;
-z-index: 2;
+z-index: 1;
 }
 
 a {
@@ -162,6 +162,7 @@ ul {
     padding-left: 5vw;
     margin-top: 15em;
     position: relative;
+    z-index: 2;
   }
 
 
