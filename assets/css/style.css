@@ -290,14 +290,13 @@ h2.titleHeader {
 .img1 {
 position: absolute;
 width: 20px;
-margin-left: 39rem;
-top: 52.19rem;
+margin-left: 8rem;
+top: 52.3rem;
 z-index: 1;
-
 }
 
 .container:hover .img1 {
-  width: 740px;
+  width: 1434.5px;
   height: auto;
   transform-origin: top;
 }
@@ -305,15 +304,15 @@ z-index: 1;
 
 .img2 {
   position: absolute;
-  width: 20px;
-  margin-left: 45rem;
-  top: 91.7rem;
+  width: 24px;
+  margin-left: 38.5rem;
+  top: 92.55rem;
   z-index: 1;
 }
 
 
 .container:hover .img2 {
-  width: 780px;
+  width: 580px;
   height: auto;
   transform-origin: top;
 }
@@ -321,14 +320,14 @@ z-index: 1;
 
 .img3 {
   position: absolute;
-  width: 20px;
-  margin-left:10rem;
-  top: 95.6rem;
+  width: 23px;
+  margin-left: 9.5rem;
+  top: 96.5rem;
   z-index: 1;
  }
 
  .container:hover .img3 {
-  width: 600px;
+  width: 791.5px;
   height: auto;
   transform-origin: top;
 }
@@ -336,109 +335,109 @@ z-index: 1;
  
 .img4 {
   position: absolute;
-  width: 20px;
-  margin-left: 55rem;
-  top: 131.16rem;
+  width: 18px;
+  margin-left: 37rem;
+  top: 142.55rem;
   z-index: 1;
 }
 .container:hover .img4 {
-  width: 500px;
+  width: 620px;
   height: auto;
 }
 
 .img5 {
   position: absolute;
   width: 20px;
-  margin-left: 55rem;
-  top: 131.16rem;
+  margin-left: 19.2rem;
+  top: 129rem;
   z-index: 1;
 }
 .container:hover .img5 {
-  width: 450px;
+  width: 475px;
   height: auto;
 }
 
 .img6 {
   position: absolute;
-  width: 10px;
-  margin-left: 35rem;
-  top: 139rem;
+  width: 13px;
+  margin-left: 7rem;
+  top: 162.7rem;
   z-index: 1;
 }
 .container:hover .img6 {
-  width: 700px;
+  width: 600px;
   height: auto;
 }
 
 .img7 {
   position: absolute;
-  width: 15px;
-  margin-left: 13rem;
-  top: 168.4rem;
+  width: 20px;
+  margin-left: 13.7rem;
+  top: 199rem;
   z-index: 1;
  }
  .container:hover .img7 {
-  width: 550px;
+  width: 675px;
   height: auto;
 }
 
 .img8 {
   position: absolute;
-  width: 10px;
-  margin-left: 39rem;
-  top: 185.3rem;
+  width: 13.7px;
+  margin-left: 38.5rem;
+  top: 209.25rem;
   z-index: 1;
  }
  .container:hover .img8 {
-  width: 470px;
+  width: 380px;
   height: auto;
 }
 
 .img9 {
   position: absolute;
-  width: 15px;
-  margin-left: 17rem;
-  top: 224.55rem;
+  width: 18px;
+  margin-left: 3.3rem;
+  top: 234.15rem;
   z-index: 1;
  }
  .container:hover .img9 {
-  width: 700px;
+  width: 600px;
   height: auto;
 }
 
 .img10 {
   position: absolute;
-  width: 8px;
-  margin-left: 45rem;
-  top: 230.5rem;
+  width: 13px;
+  margin-left: 24rem;
+  top: 250.95rem;
   z-index: 1;
  }
  .container:hover .img10{
-  width: 300px;
+  width: 385px;
   height: auto;
 }
 
 .img11 {
   position: absolute;
-  width: 15px;
-  margin-left: 28rem;
-  top: 248.9rem;
+  width: 20px;
+  margin-left: 7.8rem;
+  top: 272.8rem;
   z-index: 1;
  }
  .container:hover .img11{
-  width: 773px;
+  width: 1439px;
   height: auto;
 }
 
 .img12 {
   position: absolute;
-  width: 15px;
-  margin-left: 38rem;
-  top: 213.35rem;
-  z-index: 1;
+  width: 20px;
+  margin-left: 38.5rem;
+  top: 257.76rem; 
+   z-index: 1;
  }
  .container:hover .img12{
-  width: 453px;
+  width: 580px;
   height: auto;
 }
 }
