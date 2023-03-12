@@ -460,12 +460,20 @@ z-index: 1;
 
   .mainText p {
     /* paragraph style */
-    font-family: 'Inter', sans-serif; 
-    font-weight: 500;   
-    margin: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
     text-align: justify;
-
+    padding-right: 3vw;
+    padding-left: 3vw;
     }
+
+img {
+      position: relative;
+    width: 100%; /* set the width of each image to 200px */
+    padding: 3vW;
+    grid-area: 0.5rem;
+
+  }
 
   .mainText{
     margin-top: 1rem;
@@ -510,15 +518,6 @@ main{
     float: right ;
     width: 35%;
     display: none;
-  }
-
-  img {
-    width: 200px; /* set the width of each image to 200px */
-    margin-right: 0px; /* add a margin of 10px to the right of each image */
-    margin-bottom: 10px; /* add a margin of 10px to the bottom of each image */
-    margin-left: 6vw;
-    grid-area: 0.5rem;
-
   }
   
 
