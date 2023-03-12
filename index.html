@@ -1,116 +1,820 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<!-- meta tags, fill them with website meta infos -->
-<meta name="description" content="Description of your web page" /> 
-<meta name="keywords" content="Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5 ..."/> 
-<meta name="author" content="Name of the author/owner of the webpage's content" />
+	<!-- meta tags, fill them with website meta infos -->
+	<meta name="description" content="Description of your web page" />
+	<meta name="keywords" content="Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5 ..." />
+	<meta name="author" content="Name of the author/owner of the webpage's content" />
 
-<!-- favicons -->
-<!--
+	<!-- favicons -->
+	<!--
 	very minimal use of favicon with a 512x512px .png favicon, 
 	use 'https://www.favicon-generator.org' to generate a more extensive favicon code 
 -->
-<link rel="icon" href="assets/images/favicon/favicon.png" sizes="32x32" />
-<link rel="icon" href="assets/images/favicon/favicon.png" sizes="192x192" />
+	<link rel="icon" href="assets/images/favicon/favicon.png" sizes="32x32" />
+	<link rel="icon" href="assets/images/favicon/favicon.png" sizes="192x192" />
 
-<!-- meta properties for social medias, twitter = twitter, og:... = facebook -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Webpage title">
-<meta name="twitter:description" content="Description of your web page">
-<meta property="twitter:image:src" content="assets/images/imageforsocialmedias.jpg">
-<meta property="og:title" content="Webpage title" />
-<meta property="og:url" content="http://www.mywebsite.com/mywebpage" />
-<meta property="og:description" content="Description of your webpage" />
-<meta property="og:image" content="assets/images/imageforsocialmedias.jpg" />
 
-<!-- website title, visible in the browser window and on link sharing -->
-<title>Stories of Salt</title>
 
-<!-- links for extensions and dependencies -->
+	<!-- meta properties for social medias, twitter = twitter, og:... = facebook -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Webpage title">
+	<meta name="twitter:description" content="Description of your web page">
+	<meta property="twitter:image:src" content="assets/images/imageforsocialmedias.jpg">
+	<meta property="og:title" content="Webpage title" />
+	<meta property="og:url" content="http://www.mywebsite.com/mywebpage" />
+	<meta property="og:description" content="Description of your webpage" />
+	<meta property="og:image" content="assets/images/imageforsocialmedias.jpg" />
 
-<!-- css -->
-<!-- normalize 'resets' some browser properties to make them look the same across browsers -->
-<link rel="stylesheet" href="assets/css/normalize.css">
-<link rel="stylesheet" href="assets/css/style.css?ver=1.0">
+	<!-- website title, visible in the browser window and on link sharing -->
+	<title>Stories of Salt</title>
 
-<!-- js -->
-<script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="assets/js/script.js?ver=1.0"></script>
-    
+	<!-- links for extensions and dependencies -->
+
+	<!-- css -->
+	<!-- normalize 'resets' some browser properties to make them look the same across browsers -->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/style.css?ver=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+
+	<!-- js -->
+	<script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="assets/js/script.js?ver=1.0"></script>
+
+
 </head>
 
 <body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+
+	<img class="bg" src="/assets/images/bg.png" alt="bg">
 
 
 
 	<!-- webpage content goes here -->
 
+		<h1 id="titleHeader" class="titleHeader">WHEN I BRING SALT TO THE TABLE</h1>
+		<h2 id="titleHeader" class="titleHeader">A recipe for conserving cultures</h2>
+
+	<nav>
+		<ul>
+			<li><a href="#chapter1">In the process of it all, I found you</a></li>
+			<li><a href="#chapter2">IT NEEDS SOME MORE SALT AND A LITTLE BIT OF SOMETHING ELSE</a></li>
+			<li><a href="#chapter3">The common, precious salt</a></li>
+			<li><a href="#chapter4">With one strip of Charqui from the Andes I vow not to forget you</a></li>
+			<li><a href="#chapter5">One unknown Jar of Capers I forgot in my Cabinet</a></li>
+			<li><a href="#chapter6">A QUESTION OF TIME AND TASTE</a></li>
+			<li><a href="#chapter7">A taste of salty Caramel and four Countries later</a></li>
+			<li><a href="#chapter8">Is it still Witchcraft when Salt leaves the Sea and the Olive starts bleeding?</a></li>
+			<li><a href="#chapter9">BETWEEN WORLDS OF BRINE</a></li>
+			<li><a href="#chapter10">Amongst Monsters and salted Cods, I bathe in the Brine of the World</a></li>
+			<li><a href="#chapter11">THE END</a></li>
+			<li><a href="#chapter12">There once was a Child picking Apples and Lemons, until it found a salty Rock</a>
+			</li>
+			<li><a href="#chapter13">SOURCES</a></li>
+		</ul>
+	</nav>
+
+	<main>
+
+		<div class="container">
+			<img class="img1" src="/assets/images/1.png" alt="charqui">
+			<img class="img2" src="/assets/images/2.png" alt="crab1">
+			<img class="img3" src="/assets/images/3.png" alt="crab3">
+			<img class="img4" src="/assets/images/4.png" alt="capperi">
+			<img class="img5" src="/assets/images/5.png" alt="fiore">
+			<img class="img6" src="/assets/images/6.png" alt="moon">
+			<img class="img7" src="/assets/images/7.png" alt="rituale">
+		 	<img class="img8" src="/assets/images/8.png" alt="saltart">
+			<img class="img9" src="/assets/images/9.png" alt="scylla">
+			<img class="img10" src="/assets/images/10.png" alt="bacalhau1">
+			<img class="img11" src="/assets/images/11.png" alt="bacalhau2">
+			<img class="img12" src="/assets/images/12.png" alt="boat">
+		</div>
+		
+<div class="mainText">
+
+	
+
+		<div class="quote">
+			<p><em>In the salt mines I saw the salt in this shaker. I know you won't
+					believe me. But there it sings. The salt sings. The skin of the salt
+					mines sings with a mouth choking on dirt. Alone, when I heard the voice
+					of salt, I trembled in the empty desert near Antofagasta. The whole
+					salted plain shouts out in its cracked voice a pitiful song. Then in its
+					caverns, jewels of rock salt, a mountain of light buried under earth,
+					transparent cathedral, crystal of the sea, oblivion of the waves. And
+					now, on each table of the world, your agile essence, salt, spreading a
+					vital luster on our food. Preserver of the ancient stores in the holds
+					of ships. You were the explorer of the seas, matter foretold in the
+					secret half-open trails of foam. Dust of water, the tongue receives
+					through you a kiss from the marine night. Taste melds your oceanity into
+					each rich morsel. And thus the least wave of the salt shaker teaches us
+					not merely domestic purity, but also the essential flavor of the
+					infinite.'</em><br>
+				<em><strong>– Pablo Neruda, Ode to Salt</strong></em> <a href="#fn1" class="footnote" id="fnref1"
+					role="doc-noteref"><sup>1</sup></a>
+			</p>
+		</div>
+
+		<section id="chapter1">
+
+			<h2>In the process of it all, I found you</h2>
+			<p>Much like <em>charqui</em>, my research is tough like dry meat;
+				created at different altitudes, using different methods of
+				preparation.<br> My heritage that is fermenting through generations, obtaining a cross
+				of (bacterial) cultures, molding a new strain packed with ancient
+				knowledge. One that can’t be sure where its origin lies, bubbling until
+				it is ready to reveal its new flavor. A cloudy brine that conserves the
+				herbs and spices taken from the old trade routes. Mason jars of memories
+				conserved in the storage in my head, ready to be opened through the firm
+				rotation of my hand and with curiosity of biting into its firm
+				consistency. Within the practices of drying, fermenting and pickling
+				there is one thing that binds them. The main ingredient salt, and I am
+				here to document it. I will look into; How salt, through its
+				conservational qualities in food preparation can be used to connect and
+				preserve the ties to our ancestry.</p>
+
+				<img class="img1" src="/assets/images/1.png" alt="charqui">
+
+		</section>
 
 
-	<div class="page-wrapper">
+		<section id="chapter2">
+			<h1 id="it-needs-more-salt-and-a-little-bit-of-something-else">IT NEEDS
+				MORE SALT AND A LITTLE BIT OF SOMETHING ELSE</h1>
+			<!-- <p>Etiam eu ligula at risus lobortis venenatis. Vivamus euismod velit nunc, et eleifend mi lobortis non.</p> -->
+		</section>
 
+		<section id="chapter3">
+			<h2>The common, precious Salt</h2>
+			<p>There is art in the movements of cooking. The elegance of friction
+				between thumb, index, and middle finger evenly and so precise spreading
+				translucent grains over a bubbling dish.<br>The petite kitchens in the Netherlands remind me so often of
+				a cage,
+				with no means of letting the body and soul expand. Food is simply a
+				means to survive; a task carried on for the purpose of consumption and
+				not to be seen as practice of reconnecting with one’s body. Reconnection
+				with one’s body can be considered an art of healing. There is movement
+				and companionship in cooking. Small kitchens are nothing but a hindrance
+				to what is supposed to be a place in which people come together and
+				reconnect. It excludes the experience of families and friends who come
+				together through the process of food making.<br> Every culture carries an abundance of history.
+				Entangled in their
+				recipes, concealed within their dishes: ingredients, flavours, and
+				preparations are particular to a place and time. And just as a memory,
+				at risk to be forgotten. Like the story of salt.<br> My parents would regularly sit on my bedside in the
+				evening before
+				they would kiss me off to sleep and would tell me the stories they heard
+				during their own childhood. One of my favourites stories, was the one my
+				mother would tell me about the king and the salt.</p>
+			<p><em>The story starts as many others. In a faraway kingdom with a king
+					and his three beautiful daughters. The king bored and insecure one day,
+					called his daughters to the throne to put them under a test. “How much
+					do you love me?”, he asked them. The eldest daughter replied: “I love
+					you as much as the treasures of gold you bring me from far away
+					islands.”, satisfied with her answer he moved on to the middle child,
+					which responded with an answer as satisfying as the first one: “I love
+					you as much as the clearest crystal you gifted me from the deepest of
+					all oceans”. Finally, he turned to his youngest daughter with the same
+					question: “I love you as much as the salt we put on our food.” The
+					answer of the youngest infuriated the king. “How can you say something
+					such as this. Salt is cheap and has no worth!”, with these words he
+					banished his youngest daughter from his kingdom.<br> Years passed by when suddenly the king received
+					an invitation of
+					the neighbouring kingdom to attend the wedding of the prince. The day of
+					the wedding arrived which the king attended. After the ceremony, as the
+					food started to arrive to the tables and the king longing to fill his
+					empty stomach, took a bite out of the turkey served in front of him.
+					“But this meat is tasteless! Completely bland!“, he called out. He hoped
+					the next served dish would be better, but with each bite he took he was
+					reminded of his act of injustice. Saddened with the memories of his
+					banished daughter, he made his way to the prince and bride to thank them
+					until he stood in front of them.<br>“I hope you learned your lesson father”, the beautiful bride,
+					his
+					daughter revealed herself in front of him. They made up and lived
+					happily ever after.</em>
+					
+					<a href="#tooltip2" class="tooltip-ref" id="tooltipref2" role="tooltip-ref"><sup>2</sup></a>
+				
+					<span class="is-tooltip">
+						The story was written by Italo Calvino, an Italian
+						writer, who retold the story from ancient folktales which knew exactly
+						the importance of salt. White gold, it was named in the past. Its value
+						was so high that people would get paid in this digestible currency and
+						it is the linguistic origin of the word ‘salary’.
+					</span>
+				
+				</p>
+			<p>Salt is the key element of conservation. Brine-pools found in nature
+				kill any creature living in aerobic environments and when falling in to
+				such a pool, its present state of being is conserved entirety. Human
+				mummies found in the salt desert of Atacama have been preserved for
+				centuries without any signs of decay. When enough salt is introduced in
+				the food environment, the bacteria responsible for generating the “bad”
+				mold becomes isolated and has almost no access to the living matter. In
+				its place, the good bacteria, which are mostly resistant to salt, can
+				continue to grow.</p>
 
+				<img class="img2" src="/assets/images/2.png" alt="crab1">
+				<img class="img3" src="/assets/images/3.png" alt="crab3">
+		</section>
 
-		<header id="title-block-header">
-			<h1 class="title">Stories of Salt</h1>
-			</header>
+		<section id="chapter4">
+			<h2>With one strip of Charqui from the Andes I vow not to forget you</h2>
+			<p>A soft tingle calls me to a faraway land. A land which culture I’d
+				love to call mine but fail to find the answers of belonging, which
+				confuses me ever so often. I belong everywhere and nowhere. The
+				chameleon who changes clothing, manners, tone of voice and movements to
+				fit in. Behind the mask there is another and another and another.<br> The breeze of the arid
+				environment, the warmth of the last sunrays
+				that sets above the San Pedro de Atacama.<br>This lingering question creeps in again and brings me back
+				to
+				reality. I slap my hand down the wooden table. “My culture is whatever I
+				used to cooked in the past, what I cook today and what I will cook
+				tomorrow.” The flavours of distinct cultures that come to hug me like my
+				did grandmother when I was a child. These flavours that carry and
+				remember me throughout my life.<br>In my mind passes the bus I used to sit in. The hourlong ride we
+				took, the little breaks in which strangers with huge plastic bags came
+				on the vehicle to sell this salty delicacy. My strongest memory of
+				Charqui resides in the stuffy bus full of voyagers like me. I don’t need
+				to be reminded. Its dry floury rough texture which leaves a crumbly
+				fatty layer on my fingertips. The biting but subtle scent of iron, but
+				most of all, the saltiness that engulfs my mouth. A piece of meat that
+				reminds me of Chile itself; a rough terrain you must chew through and
+				rip apart to understand its complex layers and lost history hidden
+				within this long strip of land.<br> History was made along the trade routes of salt. Through the
+				discovery of its conservational qualities, salt became a necessity in
+				trade and in the household long before the fridge. <a href="#fn3" class="footnote-ref" id="fnref3"
+					role="doc-noteref"><sup>3</sup></a><br> The application of salt directly on the meat’s surface
+				removes the
+				water stored in the flesh, prolonging its conservational qualities. Once
+				the water is removed, the flesh’s weight is reduced, which results in
+				lighter transportation of the goods. The concentration of the flesh also
+				enhances its flavor. The arid and cold environments in the Andes help
+				significantly to reduce the growth of bad mold.</p>
+			<p><em>Charqui</em> – which derives from Quechua language and translates
+				to thin and dry – is nothing else than what the rest of the world knows
+				as beef jerky. Quechua, which was one of the largest indigenous empires
+				in Latin America during the pre-Columbian era				
+				
+				<a href="#tooltip4" class="tooltip-ref" id="tooltipref4" role="tooltip-ref"><sup>4</sup></a>
+				
+				<span class="is-tooltip">
+					before it was split between Argentina, Bolivia, Chile
+					and Peru
+				</span>
+
+				belongs today to one of the endangered indigenous languages and is prone
+				to extinction.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> In
+				conjunction with the loss of
+				knowledge of this ancient language comes the loss of the knowledge to
+				the preparation of <em>charqui</em>. There remain only a few families
+				that know the secret of its manufacture.<a href="#fn6" class="footnote-ref" id="fnref6"
+					role="doc-noteref"><sup>6</sup></a>
+				<em>Charqui</em> was and is still handcrafted on different altitudes
+				through the Andean area in Chile.
+			</p>
+			<p>A word comes to my mind which can only be expressed in its own native
+				language, even if it is not my own; <em>Saudade.</em>
+				
+				<a href="#tooltip7" class="tooltip-ref" id="tooltipref7" role="tooltip-ref"><sup>7</sup></a>
+
+				<span class="is-tooltip">
+					Saudade in Portuguese is translated to an intense
+						longing for someone or something. Unlike nostalgia one can feel
+						“saudade” for something that might never have happened or existed
+				</span>
+				
+				It is the <em>Charqui</em> that takes me back home. I express the feeling
+				of saudade because across the continent parts of my native ingredients
+				simply do not exist. How can I reconnect to my roots without having any
+				access to the ingredients nor being near the environment of my
+				ancestry?</p>
+		</section>
+
+		<section id="chapter5">
+			<h2>One unknown Jar of Capers I forgot in my Cabinet</h2>
+			<p>I am not sure what to cook today. It has been a long and cold day.
+				The little forest I pass by when going home is dull from the fog created
+				by the rigid environment. The persistent cold has taken the shine from
+				the tree leaves and colors them dark green. I find the same color upon
+				opening the door to my cabinet. Sitting there, in a small jar that once
+				contained orange or fig jam from the <em>nonna</em> next door, now holds
+				little buds covered in coarse sea salt. This little jar, before filled
+				with sadness for slowly losing the sweet marmalade smell which
+				previously coated its inner walls, now glows with the enthusiasm of a
+				snow globe.<br>The buds of the Capparis spinosa were taken before they were allowed
+				to bloom into beautiful pink petals. I taste the process, the harsh sun
+				under which these sprouts bloom, the red dirt covered hands that pick
+				each bud so carefully and selectively while a drop of sweat rolls down
+				their tanned neck, tickling them.<a href="#fn8" class="footnote-ref" id="fnref8"
+					role="doc-noteref"><sup>8</sup></a> Innocence and pureness
+				surround these capers hiding under salt. The hands that so carefully
+				moved them from their harvest until the time of their use in the
+				kitchen. I can’t force myself to use a spoon to take them out of the jar
+				nor use any other tool to wash them under water other than my own gentle
+				hands.<br>Stored in these bulb looking jars with the glass, foggy from the
+				coarse salt, I have my own little snow-globe of Sicilian culture. The
+				origin of these mason jars is unknown, constantly circulating in the
+				hands of women caretakers around me creating imprints on the glass
+				handed to me, the same ones that shaped my being of who I am today.</p>
+			<p>The salt washes over me, not only preserving my developing nature but
+				also giving me the flavor of time. In my own way, I will find my own
+				taste.</p>
+
+			<img class="img4" src="/assets/images/4.png" alt="capperi">
+			<img class="img5" src="/assets/images/5.png" alt="fiore">
+
+		</section>
+
+		<section id="chapter6">
+			<h1>A QUESTION OF TIME AND TASTE</h1>
+		</section>
+
+		<section id="chapter7">
+			<h2>A taste of salty Caramel and four Countries later</h2>
+			<p>Growing up within a half Italian household, I can safely declare we
+				are a proud folk when it comes to our food. Judgment befalls those who
+				change the context of the recipe. We like to believe that the original
+				is best. The best comes, of course from our mothers. Originality is
+				contested even between Italian people. Only through the change of
+				countries and the unavailability of quality products, has made me raise
+				my doubt of this engraved belief. There is a need to deviate from the
+				strict origins of cuisines.<br>I spoke with Asli Hatipoğlu, an artist with Turkish-Thai roots and
+				master of fermentation based in Brussels. Through her I came to
+				understand that the West, too tied to its needs of introducing
+				originality into worldly cuisines forgets one important aspect: the
+				reason of the arrival of international cuisines was for people to be
+				able to reconnect to their roots and their origins. Their adaptation
+				through ingredients becomes an adaptation and interpretation of their
+				lost homes within their new and foreign environments. Over those five
+				hours, I came to see Asli as a caring person. She knows and understands
+				the value of communication and creating safe environments. Environments
+				in which cooking becomes a learning experience through the ingredients
+				in front of us.<a href="#fn9" class="footnote-ref" id="fnref9"
+					role="doc-noteref"><sup>9</sup></a><br>The need to share became even clearer on a lecture I joined
+				with Moon
+				Sung Hee, who visited from Korea the city of Ghent for the event
+				Sonmat.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> Back in
+				Korea, Moon’s collective
+				hosts workshops on what I grasped as ‘innocent cooking’.<br>It was through her story and a simple piece
+				of candy, <em>ganjang
+					caramel</em> translated as soy sauce caramel that has presented to me
+				the possibilities of redefining culture through food.<br>The importance of this candy lies in its
+				production.
+				<br>Soy sauce replaces the typical salt grains Westerners place on the
+				table. Within this candy it is important to understand the quality of
+				the soy sauce. Traditionally soy sauce is made through fermentation.
+				Cheaper variants are often not fermented which results in a faster
+				production but an end product lacking aroma and flavor.<a href="#fn11" class="footnote-ref" id="fnref11"
+					role="doc-noteref"><sup>11</sup></a>
+				The magical collaboration began when Moon reconnected with her friend, a
+				woman who travelled from Korea to Ghent to learn the practice of the
+				typical caramel candy production in Belgium. The outcome of the reunion
+				resulted in the first and probably last candy of this sort I will ever
+				come across: a caramel candy made with Moon’s 15-year-old fermented soy
+				sauce.
+			</p>
+			<p>Moon reclaims her tradition by culturally reviving son-mat.
+
+				<a href="#tooltip12" class="tooltip-ref" id="tooltipref12" role="tooltip-ref"><sup>12</sup></a>
+
+				<span class="is-tooltip">
+					<em>Son-mat</em> (hand taste) comes from the Korean
+					belief that the energy of one’s body touching the food influences its
+					taste.
+				</span>
+					
+				She produces by far the most
+				important ingredient that is used in all dishes. Without the taste of
+				saltiness, we would be like the old king at the banquet.</p>
+
+				<img class="img6" src="/assets/images/6.png" alt="moon">
+
+		</section>
+
+		<section id="chapter8">
+			<h2>Is it still Witchcraft when Salt leaves the Sea and the Olive starts bleeding?</h2>
+			<p>In Italian culture, as in most countries, salt is seen as a sacred
+				good. As shown in the story written by Italo Calvino, salt carries a
+				deeper meaning that considers not only its use in the kitchen but also
+				in subcultural rituals and traditions.<br>One such ritual was once performed on my mother. The
+				<em>Malocchio</em> ritual consists of determining whether someone
+				attached an evil eye on a person and in breaking any such spell.<br>Breaking the spell will remove any
+				physical disturbances and bad luck
+				that the evil eye created.<br>In the ritual, the person sits in front of a plate filled with water,
+				at least from what I experienced that gloomy afternoon, the spell
+				performer then dips their fingers in olive oil and holds it above the
+				plate of water. If the fallen drops remain one, then no such spell was
+				cast. If the drops fall and split into many small droplets it means
+				someone gave you the <em>malocchio.</em><br>
+				To break such spell, the following words need to be spoken while
+				dropping salt in four points of the plate forming a transparent cross:
+				“Father, Son and the Holy Spirit”. The performer then touches with their
+				oil covered fingertips the salt next to them. They touch upon the
+				victim’s forehead and speaking following lines:
+			</p>
+			<p><em>Occhio malocchio pigghiata d<span dir="rtl">’</span>occhio<br />
+					nesce u malocchio e trase u bonocchio<br />
+					Sinni va pa so via<br />
+					cu Gesù, Giuseppe e Maria.</em></p>
+			<p>When finished with this ritual it is crucial to get rid of the water.
+				It is in everyone’s best interest to throw it as far as possible from
+				home, to not have the <em>malocchio</em> finding its way back to you. To
+				make sure the spell is properly broken one recites:</p>
+			<p><em>Acqua e sale pi li mari<br />
+					acqua e sale pi cu ni vole male</em><a href="#fn13" class="footnote-ref" id="fnref13"
+					role="doc-noteref"><sup>13</sup></a></p>
+
+					<img class="img7" src="/assets/images/7.png" alt="rituale">
+
+			<p>The artist Patricia Kaersenhout is another notable example of using
+				salt as a form of ritual. For the exhibition Manifesta 12 in Palermo,
+				the artist had placed a mountain of 8,000 kilograms of salt in the
+				middle of a room, then young refugees sang 19th century slave songs
+				while a <em>Winti</em> Priest
+				<a href="#tooltip14" class="tooltip-ref" id="tooltipref14" role="tooltip-ref"><sup>14</sup></a>
+
+				<span class="is-tooltip">
+					Afro-Surinamese priest. The religion Winti originated
+					in Suriname.
+				</span>
 			
-			<h4>Abstract</h4>
+					blessed the salt.
+				Spectators could then carry the salt with them and dissolve it in water
+				at home. Her comment towards the artwork: <em>“The sea salt refers to
+					the salt which enslaved people refrained from eating so they could fly
+					back to Africa. But it also stands symbol for mental and physical
+					liberation. It refers to slaves crossing the salt water of the Atlantic
+					Ocean on their way to plantations. It<span dir="rtl">’</span>s the salt
+					of all the tears shed during slavery and colonialism.”</em><a href="#fn15" class="footnote-ref"
+					id="fnref15" role="doc-noteref"><sup>15</sup></a><br>
+				Patricia Kaersenhout uses salt as a remedy for healing to release the
+				pain of the past.</p>
+			<p>Through the previous examples given, salt resurfaces not only as an
+				ingredient on the table but is also used in mourning, in removing the
+				bad, and celebrating the small moments in life. Whether one does so
+				intentionally or unintentionally, it is shown how these small grains
+				play a big role in across different cultures and generations.</p>
 
-			<div class="background">
+				<img class="img8" src="/assets/images/8.png" alt="saltart">
+
+		</section>
+
+		<section id="chapter9">
+			<h1>BETWEEN WORLDS OF BRINE</h1>
+		</section>
+
+		<section id="chapter10">
+			<h2>Amongst Monsters and salted Cods, I bathe in the Brine of the World</h2>
+			<p>I was awaiting a package from my mother. Brown and heavy, inside full
+				of little treasures that I am too excited to eat all by myself.</p>
+			<p>Here the itinerary of the box sent by my mother;</p>
+			<p>10 chocolate bars from Switzerland (four of them past the date of
+				consumption),<br>
+				one chunk of Gruyère,<br>
+				one chunk of <em>parmigiano</em>,<br>
+				<em>caramelle alla carruba</em>
+				
+				<a href="#tooltip16" class="tooltip-ref" id="tooltipref16" role="tooltip-ref"><sup>16</sup></a>
+
+				<span class="is-tooltip">
+					Carob candies for sore throats
+				</span>
+				,<br>
+				other caramel candies (I don’t like them),<br>
+				one jar of honey from <em>Sardegna,</em><br>
+				one jar of quince jam (the same jar will be used for capers once it
+				is finished),<br>
+				two jars of <em>pesto di pistacchio,</em><br>
+				one big jar of pistachio cream spread,<br>
+				Sicilian cookies,<br>
+				Sicilian cookies of a different type,<br>
+				Anchovies under salt<br>
+				and finally candied quince.
+			</p>
+
+			<img class="img9" src="/assets/images/9.png" alt="scylla">
+
+			<p>The last one was made by my uncle in Sicily. Little honey-colored
+				rocks shimmering in sugar like crystals. Sugar and salt. Sweet and
+				salty. Putting these words together makes me think indeed of my uncle,
+				although I felt I never had a strong connection with him. Yet he was one
+				out of all three siblings who made me laugh the most. I look back
+				smiling at an adult man who would ram his head in my grandmother’s
+				closet and search for me while I was so obviously sitting on the bed
+				shedding tears of laughter with the rest of my family.<br>
+				In my youth my uncle took me fishing once. He put me in his little
+				boat he owns and drove out into the sea. <em>Lo stretto di Messina,</em>
+				the Strait of Messina – where the sea parts Messina from the mainland,
+				making the western tip of Calabria the closest to our island.<br>
+				How many legends my <em>nonna</em> told me of the monsters that lured
+				so close by. One of the most famous ones was Odysseus journey home to
+				Ithaca. In which he encounters the cyclops <em>Polyphemus</em> and upon
+				his escape other monsters awaited. <em>Scylla</em>, a beautiful nymph
+				that was turned into a monster and ate sailors on the Calabrian side,
+				hiding in a cave at the cliff. <em>Charybdis</em>, creating large
+				whirlpools known to sink ships residing, or even being the Strait of
+				Messina itself. The idiom between <em>Scylla</em> and <em>Charybdis</em>
+				arose, to choose among two dangerous paths and mastering its escape.<br>
+				I truly rose amongst gods and monsters.</p>
+			<p>I sat there in silence while my uncle showed me how to tie worms,
+				waiting for <em>Charybdis</em>’ vortex to pull us down to where the fish
+				live.</p>
+			<p><em>“Sciroccu, malanova e piscistoccu a Missina non mancanu mai”</em>
+
+				<a href="#tooltip17" class="tooltip-ref" id="tooltipref17" role="tooltip-ref"><sup>17</sup></a>
+
+				<span class="is-tooltip">
+					“Sirocco, bad news and salted cod are never absent in
+						Messina.”
+				</span>
+			</p>
+
+			<img class="img10" src="/assets/images/10.png" alt="bacalhau1">
+			<img class="img11" src="/assets/images/11.png" alt="bacalhau2">
+<p></p>
+			<img class="img12" src="/assets/images/12.png" alt="boat">
 			
 
-			</div>
-			
-			<div class="row">
+			<p>The protagonist in Sicilian and Portuguese kitchen is the
+				<em>baccalà</em> or <em>bacalhau</em>. The term is mostly used to
+				describe white fish put under salt. The cod which was originally fished
+				in Norway fished cod is now found in most coastal regions’ recipes
+				across many different cultures. The fish did not spread only through
+				commercial routes but also through its natural course of habitat.
+				Certain families of the cod are also fished in the Mediterranean.<a href="#fn18" class="footnote-ref"
+					id="fnref18" role="doc-noteref"><sup>18</sup></a><br>
+				The rays of sun heating the ocean water by the beach, in distance the
+				typical swordfish boats with its long mast. If I would describe the
+				<em>charqui</em> as winter, then the cod cannot be anything other than
+				summer. I may be wrong with the assumption as cod gets fished all year
+				around, yet my mind cannot connect it to anything other but the
+				<em>insalata di baccalà alla siciliana</em>.<br>
+				A salad which is eaten very differently in comparison to others. One
+				eats it with conscience. The fibrous consistency must be masticated with
+				intent. No other thought is permitted to enter during this action. Like
+				the cod itself knew: “<em>I am here at your mercy, and I will make you
+					work for it.</em>” Through its tough flesh we are forced to notice and
+				experience the depth of its flavor.<br>
+				The utmost important thing when handling the <em>baccalà,</em> is to
+				immerse the fish in water for up to three days before it gets cooked.
+				The water gets replaced repeatedly. After the process of boiling the
+				fish, it finds itself in a mixture of tomatoes, onions, potatoes, capers
+				and other herbs. The cod taken from its native brine, to find itself in
+				another, even more fragrant one.
+			</p>
+			<p><em>"It could be the victim himself, supine on the altar, offering
+					his own entrails on the dish. Or the sacrificer, who assumes the pose of
+					the victim because he is aware that tomorrow it will be his turn.
+					Without this reciprocity, human sacrifice would be
+					unthinkable."</em><br>
+				<em><strong>– Salustiano, 'Under the Jaguar Sun'</strong></em><a href="#fn19" class="footnote-ref"
+					id="fnref19" role="doc-noteref"><sup>19</sup></a>
+			</p>
+		</section>
 
-				<div class="column1">
-				  <img class="saltimage" src="assets/images/Single_grain_of_table_salt.png" alt="salt_microscope">
-				</div>
+		<section id="chapter11">
+			<h1>THE END</h1>
+		</section>
 
-			<div class="column2">
-				  <p class="abstract">The word Culture in Latin means nothing else than “to cultivate”. The meaning of cultivation
-					within Sandor Ellix Kutz’s book The Art of Fermentation, “… constitutes the totality of all that
-					humans seek to pass from generation to generation, including language, music, art,
-					literature, scientific knowledge, and belief systems, as well as agriculture and culinary
-					techniques (in both of which fermentation occupies a central role).”
-					<br>
-					<br>
-					In conclusion cultivation cannot happen if there is no one following practices of our
-					ancestors. In order for them to be continued they need to be transferred and passed on
-					from one generation to another. Rituals and traditions and the cultivation of those would
-					mean nothing without preservation. In my thesis, this act of conversation will be facilitated
-					through the topic of the preservation of food through salt and the practice of fermentation.
-					This includes history, fables, cultural folktales and oral storytelling.
-					The topic is to rediscover for myself and others, who feel lost and follow the wish to be
-					connected, ways in which we can reconnect to what we call home. A recipe for Heimweh
-					that can connect us back to our roots.
-					How can salt within its conservational qualities within food preparation be used to connect
-					and preserve the ties to our roots? How can it become a material agent to preserve roots and
-					culture and practices of cooking and the culture of food?
-					To be able to spark this conversation I am turning to the books Salt by Mark Kurlansky, The
-					Art of Fermentation by Sandor Ellix Katz, Under the Jaguar Sun by Italo Calvino, Braiding
-					Sweetgrass by Robin Wall Kimmerer and Mi país inventado by Isabel Allende. I use my own
-					memory to reflect on conversations that I had with the artist Asli Hatipoğlu and friends and
-					family members. Using not only academic sources but as well historical sources, fables,
-					cultural folktales, oral storytelling. Finally, my practice in the kitchen complements the work
-					as practical research.</p>
-				</div>
-			  </div>
-			</h1>
-			</div>
-
-
+		<section id="chapter12">
+			<h2>There once was a Child picking Apples and Lemons, until it found a salty Rock</h2>
+			<p>My feet take the first step on the new land. A land I revisited in
+				the past. You should know me. Your history runs partly through my veins,
+				merged with the Sicilian proudness. I took a stone with me when I left
+				you, back to my home I never really belonged to. I licked your bumps and
+				nooks while my eyes squinted from the salinity. Feel the small sand
+				grains that grind on my teeth when I swish you through my mouth. I
+				ingested you. And yet, I cannot sound the way your natives speak. The
+				other day, one of you came to my home to pick up a table my roommate
+				sold. I did not recognize you until you answered the phone call. The
+				little sing sang your children master. How close I felt in that moment
+				and with excitement I engaged, but she did not recognize me as theirs.
+				She thought I was Mexican.</p>
+			<p>My father laughed as I told him about the encounter: “It is true,
+				Chilean people don’t recognize you. Your accent is not the same, but it
+				is the language we always communicated in. It is the language we talk in
+				when we say <em>I love you.</em>”</p>
+			<p>I am afraid of losing my language a bit more. It is a difficult task
+				to upkeep a language over the years of not being able to revisit the
+				homeland. It has been too long. But don’t forget, I am the salt that
+				conserves the culture. All of them. I am the vessel of my land. My hands
+				don’t forget the motions when I prepare my native dishes.</p>
+		</section>
 
 	</div>
 
+		<section id="chapter13" id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+
+			<h1>Sources</h1>
+
+			<article class="test">
+
+				<ol class="sourcesList">
+
+					<h2 id="web">WEB:</h2>
+
+					<li id="fn9">
+						<p>
+							<a
+								href="https://linktr.ee/aslihatipoglu?fbclid=PAAaYVSDyFNG4cjQ7avTNC30vioacpmDMvB0clnGZb-IR267m6QXSTrOIAilI.">“Aslihatipoglu.”<em>@Aslihatipoglu</em>,</a>
+							<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+					<li id="fn1">
+						<p>
+							<a
+								href="http://www.cocosse-journal.org/2020/07/ode-to-saltpablo-neruda.html"><em>Ode to Salt | Pablo Neruda, 1904-1973</em>.</a>.
+							<br> Accessed 6 January 2023.
+							<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+					<li id="fn6">
+						<p>
+						<a
+							href="https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/pichincha-charqui/">Pichincha Charqui,<em><strong></strong> Ark of
+								taste</em><strong>.</strong> <br></a>
+					</p>
+					</li>
+
+					<li id="fn13">
+						<p>
+							<a
+								href="custonaciweb.it/in-sicilia-esiste-un-antico-rito-che-scaccia-via-il-malocchio-a-pigghiata-rocchiu.">Redazione. <span dir="rtl">“</span>In Sicilia Esiste Un Antico Rito
+								Che Scaccia via Il Malocchio: <span dir="rtl">‘</span>A Pigghiata a
+								R<span dir="rtl">’</span>occhiu.’” <br>
+								<em>CustonaciWeb</em>, 13 July
+								2022,</a>
+							<br>Accessed 16 Dec. 2023.
+							<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+					<p>
+						<a
+							href="https://bread-on.earth/Body-Metaphor-Fleshy-Flat-Recipe">Smith, Zadie. “Body Metaphor, Fleshy Flat Recipe.” <em>Bread on
+								Earth</em></a>
+					</p>
+
+					<li id="fn10">
+						<p>
+							<a href=" www.sonmat.be/programma.">“Sonmat.” <em>Sonmat</em>, </a>
+							<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+					<li id="fn18">
+						<p>“Una Tradizione Millenaria ‘Ù Baccalà’ Dai Normanni Ad
+							Oggi Nelle Tavole Natalizie Dei Palermitani.” <br>
+							<a
+								href=" www.palermoweb.com/palermoweb/index.php/il-pesce-bastone-u-baccala."><em>PalermoWeb</em></a>,
+							<br> 1 Dec. 2020, 
+							<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+				</ol>
+
+				<ol class="sourcesList">
+
+					<h2 id="books">BOOKS:</h2>
+					<p>Allende, Isabel.<br> <em>My Invented Country: A Memoir</em>. <br>
+						HarperVia, 2020.</p>
+
+					<li id="fn19">
+						<p>Calvino, Italo William Weaver.<br> <em>Under the Jaguar Sun</em>. <br>
+							Penguin Books, 2023.
+							<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+					<li id="fn6">
+						<p>Carrera, Javier Carrera; García, Claudia; &amp; Unigarro Catalina. <br>
+							<em>Atlas de Patrimonio Alimentario de la Provincia de Pichincha.</em><br>
+							Ministerio de Cultura y Patrimonio del Ecuador. July 2014. Quito.
+							<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+					<li id="fn11">
+						<p>Katz, Sandor Ell. <br>  <em>Art of Fermentation by Katz, Sandor Ellix
+								[Hardcover]</em>. <br>
+							1st Printing, ChelsaeGreen, 2012. , 2023.
+							<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+					<p>Kimmerer, Robin Wall. <br> <em> Braiding Sweetgrass.</em> <br> Penguin Books. 2020.</p>
+
+					<li id="fn3">
+						<p>
+							Kurlansky, Mark. <br> <em>Salt: A World History</em>. <br> Penguin Books,
+							2003.
+							<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
 
 
-	<!-- end webpage content -->
+					<p>UNEP Food Waste Index Report. <br> United Nations Environment Programme.
+						2021.</p>
+
+					<li id="fn5">
+						<p>Valdivia-Flores, Eritka.<br> <em> Quechua in the 21st century: from an
+								endangered language to a revitalization.</em> <br> Baruch College (CUNY).
+							2013-2014.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+				</ol>
+
+				<ol class="sourcesList">
+ 
+					<h2 id="images">IMAGES:</h2>
+
+					<p>Barone, Robert. <br>
+						<a
+							href="https://www.forbes.com/sites/greatspeculations/2020/08/04/the-economy-navigating-scylla--charybdis/?sh=24cd8324ea7c">“The
+							Economy: Navigating Scylla and
+							Charybdis.”</a>, <br>
+						20 Aug. 2020.
+					</p>
+
+					<p><a href="https://www.cosedicasa.com/casa-in-fiore/giardino/come-coltivare-il-cappero-90723">“Come
+							Coltivare Il
+							Cappero.” </a>,<br> Feb. 2021.
+					</p>
+
+					<p>Chudyk, Colin. <br>
+						<a href="entirelandscapes.space/swordfishing-boats.">“Entire Landscapes” </a>
+					</p>
+
+					<p><a
+							href="https://www.repubblica.it/il-gusto/2021/07/07/foto/il_cappero_di_pantelleria_dalla_pianta_alla_salatura-307545684/1/">“Il
+							Cappero Di Pantelleria, Dalla Pianta Al
+							Vasetto.”</a>, <br>
+						July 2021.</p>
+
+					<li id="fn15">
+						<p>Janssen, Kristen.<br>
+							“The Soul of Salt, 2016.” <br>
+							<a href="http://m12.manifesta.org/the-soul-of-salt-2016/index.html"><em>Manifesta 12
+									Palermo</em></a>,<br>
+							31 Aug. 2018,
+							<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a>
+						</p>
+					</li>
+
+					<p>
+						<a href="https://nautiluslive.org/album/2015/06/01/living-edge-brine-pool-organisms"><em>“Living
+								on
+								the Edge: Brine Pool Organisms.” </em></a>.
+					</p>
+
+					<p>“Patricia Kaersenhout.”<br>
+						 <a href="https://www.salpica.es/2020/10/22/patricia-kaersenhout/">Sal-Pica</a>.
+						<br>Accessed 4 January 2023.
+					</p>
+
+					<p>“Pigghiata a R’occhiu.”
+						<br><a
+							href="custonaciweb.it/in-sicilia-esiste-un-antico-rito-che-scaccia-via-il-malocchio-a-pigghiata-rocchiu."><em>Custonaciweb</em></a>.
+					</p>
+
+					<p><a
+							href="https://news.miami.edu/rosenstiel/stories/2022/07/rare-deep-sea-brine-pools-discovered-in-red-sea.html">
+							<em>“Rare Deep-sea Brine Pools Discovered in Red
+								Sea.”</em></a>. <br> 7 Nov. 2022.</p>
+
+					<p>“Sonmat II.”<br>
+						<a href=" www.sonmat.be/photos-sonmat-ii."> <em>Sonmat</em></a>, <br>
+						2022.
+					</p>
+
+					<p> Wikiwand. <br>
+						<a href="https://www.wikiwand.com/en/Dried_and_salted_cod">“Dried and Salted Cod.”</a>
+					</p>
+
+				</ol>
+
+			</article>
+
+			</div>
+
+		</section>
+	</main>
 
 
 

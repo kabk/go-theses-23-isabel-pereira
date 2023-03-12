@@ -1,12 +1,32 @@
 @charset "UTF-8";
 
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+  
 
+
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
 
 /* @FONT FACE (enable the use of 'custom fonts' inside your document) */
 
 @font-face {
-    font-family: 'Your Font Name';
-    src: url('../fonts/yourfontname/yourfontname-roman.woff2'),
+    font-family: 'Europa Grotesk';
+    src: url('../fonts/europa-grotesk/europa-grotesk-roman.otf'),
          url('../fonts/yourfontname/yourfontname-roman.woff'),
          url('../fonts/yourfontname/yourfontname-roman.eot'),
          url('../fonts/yourfontname/yourfontname-roman.eot?#iefix') format('embedded-opentype'),
@@ -17,8 +37,8 @@
 }
 
 @font-face {
-    font-family: 'Your Font Name';
-    src: url('../fonts/yourfontname/yourfontname-italic.woff2'),
+    font-family: 'Europa Grotesk';
+    src: url('../fonts/europa-grotesk/europa-grotesk-italic.otf'),
          url('../fonts/yourfontname/yourfontname-italic.woff'),
          url('../fonts/yourfontname/yourfontname-italic.eot'),
          url('../fonts/yourfontname/yourfontname-italic.eot?#iefix') format('embedded-opentype'),
@@ -28,7 +48,11 @@
     font-display: block;
 }
 
-
+@supports (font-size-adjust: 1;) {
+  article {
+    font-size-adjust: 0.5;
+  }
+}
 
 /* VARIABLES */
 
@@ -39,61 +63,180 @@
   --color-text-link: rgba(0,0,255,0.8);
   --color-text-link-hover: rgba(0,0,255,0.4);
   /* Font settings */
-  --font-family: 'Your Font Name', 'Helvetica', 'Arial', sans-serif;
-  --font-size: 24px;
+  --font-family: 'Europa Grotesk', serif;
+  --font-size: 16 px;
   /* Margins settings */
   --margin: 1rem;
 }
 
-
-
 /* GENERAL STYLES */
 
 html {
-  font: var(--font-size) var(--font-family);
   color: var(--color-text);
   background-color: var(--color-background);
 }
 
 body {
   position:relative;
-  background-color: var(--color-background);
+  background-color: white;
   font: var(--font-size) var(--font-family);
   color: var(--color-text);
   width:100%;
+  max-width: 100vw;
+  overflow-x: hidden;
   height:auto;
   overflow-y:auto;
 }
 
+img.bg{
+position: absolute;
+width: 100%;
+padding-top: 14rem;
+z-index: 0;
+}
+
 a {
   color: var(--color-text-link);
-  text-decoration: underline;
 }
 
 a:hover {
   color: var(--color-text-link-hover);
-  text-decoration: underline;
+
 }
 
 a:focus-visible {
   color: var(--color-text-link-hover);
-  text-decoration: none;
+
 }
 
 h1{
-  /* h1 style */
+  /* letter-spacing: -.01rem; */
+  font-family: 'Inter', sans-serif; 
+  font-weight: 500;   
+  font-size: 0.8rem;
+  position: relative;
+  display: inline-block;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+  padding-left: 5vw; 
+
 }
 
 h2{
-  /* h2 style */
+  font-family: 'Inter', sans-serif; 
+  font-weight: 800;   
+  font-size: 0.6rem;
+  position: relative;
+  display: inline-block;
+  margin-left: 2vw;
+  padding-left: 5vw;
 }
 
-h3{
-  /* h3 style */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h4, h5, h6{
-  /* h4-h5-h6 style */
+a {
+  text-decoration: none;
+  transition: .2s all ease;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:active {
+  opacity: .5;
+}
+
+ul {
+    /* paragraph style */
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600;   
+    font-size: 0.6rem;
+    line-height: 2;
+    margin: 2vw;
+    padding-right: 35vw;
+    padding-left: 5vw;
+    margin-top: 15em;
+    position: relative;
+  }
+
+
+em .quote{
+}
+  
+em{
+  font-family: 'Andada Pro', serif;
+  font-style: italic;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  font-weight: 500; 
+}
+
+sup{
+  display:inline-block;
+  margin:0;
+  padding:0;
+  padding-left:0.25em;
+  font-size:0.75em;
+}
+
+
+/* tooltip */
+
+span.is-tooltip {
+  display:block;
+  position: absolute;
+  left:0;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  z-index:999;
+  display:none;
+  width:100%;
+  height:auto;
+  font-size:0.6rem;
+}
+
+a.tooltip-ref:hover + .is-tooltip{
+  display:block;
+}
+
+.titleHeader {
+}
+
+h1.titleHeader {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 3.4rem;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin-top: 1rem;
+
+}
+
+h2.titleHeader {
+  font-family: 'Inter', sans-serif;
+  font-weight:  700;
+  font-style: italic;
+  font-size: 1rem;
+  padding-left: 5vw;
+
+}
+
+.mainText p{
+  padding-right: 35vw;
+  padding-left: 5vw;
+  font-size: 0.6rem;
+  line-height: 1.3;
+      /* Justify text with a last line aligned left */
+      text-align: justify;
+      text-align-last: left;
+    
 }
 
 /* BIG WEBSITE */
@@ -101,16 +244,202 @@ h4, h5, h6{
 
   p {
     /* paragraph style */
-    font-family: 'apple';
-    margin: 10vw;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-position: relative;
-display: inline-block;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 500;   
+    /* font-size: 0.6rem;
+    line-height: 1.3; */
+    margin: 2vw;
+    /* padding: 0 35vw;  */
+
+    position: relative;
+    /* display: inline-block; */
+    -webkit-text-size-adjust: 100%;
+    font-size-adjust: 100%;
+    }
+
+.mainText{
+      margin-top: 8rem;
+    }
+
+.mainText img { display: none }
+
+.test {
+  /* display: flex; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  font-size: 0.5rem;
+  max-width: 100vw;
+  padding-left: 5vw;
+
 }
-  }
+
+.sourcesList{
+  max-width: 30vw;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  text-align-last: left;
+  
+}
+
+  
+.img1 {
+position: absolute;
+width: 20px;
+margin-left: 39rem;
+top: 52.19rem;
+z-index: 1;
+
+}
+
+.container:hover .img1 {
+  width: 740px;
+  height: auto;
+  transform-origin: top;
+}
+
+
+.img2 {
+  position: absolute;
+  width: 20px;
+  margin-left: 45rem;
+  top: 91.7rem;
+  z-index: 1;
+}
+
+
+.container:hover .img2 {
+  width: 780px;
+  height: auto;
+  transform-origin: top;
+}
+
+
+.img3 {
+  position: absolute;
+  width: 20px;
+  margin-left:10rem;
+  top: 95.6rem;
+  z-index: 1;
+ }
+
+ .container:hover .img3 {
+  width: 600px;
+  height: auto;
+  transform-origin: top;
+}
+
+ 
+.img4 {
+  position: absolute;
+  width: 20px;
+  margin-left: 55rem;
+  top: 131.16rem;
+  z-index: 1;
+}
+.container:hover .img4 {
+  width: 500px;
+  height: auto;
+}
+
+.img5 {
+  position: absolute;
+  width: 20px;
+  margin-left: 55rem;
+  top: 131.16rem;
+  z-index: 1;
+}
+.container:hover .img5 {
+  width: 450px;
+  height: auto;
+}
+
+.img6 {
+  position: absolute;
+  width: 10px;
+  margin-left: 35rem;
+  top: 139rem;
+  z-index: 1;
+}
+.container:hover .img6 {
+  width: 700px;
+  height: auto;
+}
+
+.img7 {
+  position: absolute;
+  width: 15px;
+  margin-left: 13rem;
+  top: 168.4rem;
+  z-index: 1;
+ }
+ .container:hover .img7 {
+  width: 550px;
+  height: auto;
+}
+
+.img8 {
+  position: absolute;
+  width: 10px;
+  margin-left: 39rem;
+  top: 185.3rem;
+  z-index: 1;
+ }
+ .container:hover .img8 {
+  width: 470px;
+  height: auto;
+}
+
+.img9 {
+  position: absolute;
+  width: 15px;
+  margin-left: 17rem;
+  top: 224.55rem;
+  z-index: 1;
+ }
+ .container:hover .img9 {
+  width: 700px;
+  height: auto;
+}
+
+.img10 {
+  position: absolute;
+  width: 8px;
+  margin-left: 45rem;
+  top: 230.5rem;
+  z-index: 1;
+ }
+ .container:hover .img10{
+  width: 300px;
+  height: auto;
+}
+
+.img11 {
+  position: absolute;
+  width: 15px;
+  margin-left: 28rem;
+  top: 248.9rem;
+  z-index: 1;
+ }
+ .container:hover .img11{
+  width: 773px;
+  height: auto;
+}
+
+.img12 {
+  position: absolute;
+  width: 15px;
+  margin-left: 38rem;
+  top: 213.35rem;
+  z-index: 1;
+ }
+ .container:hover .img12{
+  width: 453px;
+  height: auto;
+}
+}
+
+
 
  .background {
   background-color: aliceblue;
@@ -119,47 +448,91 @@ display: inline-block;
 
 /* SMALL WEBSITE */
 @media all and (max-width: 1000px) {
+  .titleHeader {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: block;
+  }
+
+  h1.titleHeader {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-right: 0rem;
+    text-align: center;  
+}
+  
+  h2.titleHeader {
+    font-family: 'Inter', sans-serif;
+    font-weight:  700;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: -0.8rem;
+  }
+
+  img.bg{
+    position: absolute;
+    width: 100%;
+    padding-top: 23rem;
+    z-index: 0;
+    }
 
   p {
     /* paragraph style */
     margin-block-start: 0;
     margin-block-end: 0;
-    font-family: 'apple';
-    margin: 2rem;
-    column-count: 1;
+    margin: 0rem;
+     /* Justify text with a last line aligned left */
+        
   }
+
+  .mainText{
+    margin-top: 4.5rem;
+    width: 100%;
+  }
+
+main{
+  display: block;
+  width: 100%;
+}
+
+  .container img{
+    float: right ;
+    width: 35%;
+    display: none
+  }
+
+  img {
+    width: 200px; /* set the width of each image to 200px */
+    margin-right: 0px; /* add a margin of 10px to the right of each image */
+    margin-bottom: 10px; /* add a margin of 10px to the bottom of each image */
+  }
+  
+
+  .test {
+    /* display: flex; */
+    font-size: 0.5rem;
+    max-width: 100vw;
+    padding-left: 5vw;
+    font-size: 0.5rem;
+    display: flex;
+  
+  }
+  
+  .sourcesList{
+    max-width: 30vw;
+    vertical-align: top;
+    text-align: left;
+    text-align-last: left;
+  }
+
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
-.column1 {
-  float: left;
-  width: 50%;
-  padding-right: 4em;
-  /* height: 300px; Should be removed. Only for demonstration */
-}
 
-.column1 > img {
-  width: 100%;
-  padding-left: 4em;
-}
-.column2 {
-  float: left;
-  width: 50%;
- padding-left: 1em;
- padding-right: 1em;
-/* height: 300px; Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 h4 {
   margin-left: 1em;
@@ -175,19 +548,19 @@ margin-left: 0.4em;
 
 }
 
-ol, ul{
-  /* ordered list and unordered list styles */
+.footnotes {
+
 }
 
-blockquote{
-  /* blockquote element style */
+.footnotes ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-hr{
-  /* horizontal rule style */
+.footnotes a {
+  text-decoration: none;
 }
-
-
 
 /* PAGE STYLES */
 
@@ -196,7 +569,9 @@ hr{
 div.page-wrapper {
   /* the element that 'wraps' everything */
   padding: var(--margin);
+
 }
+
 
 /* navigation */
  
@@ -207,17 +582,10 @@ nav{
 /* content */
 
 main{
+
+margin-top: 0em;
  
 }
-
-summary{
-  
-}
-
-
-
-
-
 
 /* GENERAL USABILITY */
 
@@ -246,9 +614,6 @@ summary{
   width: 1px !important;
   white-space: nowrap !important;
 }
-
-
-
 
 
 
@@ -301,13 +666,12 @@ summary{
 
 
 
-
-
-
   /* utilities */
 
   .desktop{display:none!important;}
   .mobile{display:block;}
+
+  .test{grid-template-columns: 1;}
 
 }
 
@@ -316,7 +680,7 @@ summary{
 @media (max-width: 339px) {
 
   /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
-
+ 
 }
 
 
@@ -335,4 +699,45 @@ summary{
 
 }
 
+.test em{
+  /* display: flex; */
 
+  font-size: 0.5rem;
+
+
+}
+
+.test h2{
+  /* display: flex; */
+
+  padding-left: 0vw;
+
+}
+
+
+
+#chapter13 {
+}
+
+#chapter13 h1{
+ display: ;
+}
+
+#myBtn {
+  display: none; /* Hide the button initially */
+  position: fixed; /* Fixed position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it's on top of other elements */
+  font-size: 2rem; /* Increase font size */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: transparent; /* Set a transparent background */
+  cursor: pointer; /* Add a cursor on hover */
+  padding: 10px; /* Add some padding */
+}
+
+#myBtn:hover {
+  background-color: rgb(0, 0, 255); /* Add a dark-grey background on hover */
+  color: white;
+}
