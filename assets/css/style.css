@@ -150,11 +150,11 @@ ul {
     font-family: 'Inter', sans-serif; 
     font-weight: 600;   
     font-size: 0.6rem;
-    line-height: 2;
+    line-height: 1.5;
     margin: 2vw;
     padding-right: 35vw;
     padding-left: 5vw;
-    margin-top: 15em;
+    margin-top: 22em;
     position: relative;
     z-index: 2;
   }
@@ -464,7 +464,8 @@ z-index: 1;
   }
 
   ul{
-    margin-top: 18rem;
+    margin-top: 20rem;
+     line-height: 1.5;
   }
 
   .mainText p {
@@ -487,12 +488,12 @@ z-index: 1;
       }
 
       img.bg2{
-        position: absolute;
+        position: fixed;
         width: 100%;
-        padding-top: 31rem;
         z-index: 1;
         padding-left: 0rem;
         padding-right: 0rem;
+        bottom: -13vh;
         
         }
 
