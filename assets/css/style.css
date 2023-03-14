@@ -22,31 +22,6 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-/* @FONT FACE (enable the use of 'custom fonts' inside your document) */
-
-@font-face {
-    font-family: 'Europa Grotesk';
-    src: url('../fonts/europa-grotesk/europa-grotesk-roman.otf'),
-         url('../fonts/yourfontname/yourfontname-roman.woff'),
-         url('../fonts/yourfontname/yourfontname-roman.eot'),
-         url('../fonts/yourfontname/yourfontname-roman.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/yourfontname/yourfontname-roman.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-
-@font-face {
-    font-family: 'Europa Grotesk';
-    src: url('../fonts/europa-grotesk/europa-grotesk-italic.otf'),
-         url('../fonts/yourfontname/yourfontname-italic.woff'),
-         url('../fonts/yourfontname/yourfontname-italic.eot'),
-         url('../fonts/yourfontname/yourfontname-italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/yourfontname/yourfontname-italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: block;
-}
 
 @supports (font-size-adjust: 1;) {
   article {
@@ -154,7 +129,7 @@ ul {
     margin: 2vw;
     padding-right: 35vw;
     padding-left: 5vw;
-    margin-top: 22em;
+    margin-top: 1rem;
     position: relative;
     z-index: 2;
   }
@@ -166,7 +141,7 @@ em .quote{
 em{
   font-family: 'Andada Pro', serif;
   font-style: italic;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   line-height: 1.3;
   font-weight: 500; 
 }
@@ -208,9 +183,39 @@ a.tooltip-ref:hover + .is-tooltip{
   line-height: 1.3;
       /* Justify text with a last line aligned left */
   text-align: justify;
-  text-align-last: left;
+  text-align-last: left;  
     
 }
+
+
+.abstract p{
+
+      /* Justify text with a last line aligned left */
+  text-align: justify;
+  text-align-last: left;   
+  /* display: inline-block; */
+  -webkit-text-size-adjust: 100%;
+  font-size-adjust: 100%;
+}
+
+.abstract{
+  text-align: justify;
+  text-align-last: left;   
+  font-family: 'Andada Pro', serif;
+  font-style: italic;
+  padding-right: 56vw;
+  padding-left: 5vw;
+  font-size: 0.6rem;
+  line-height: 1.2;
+      /* Justify text with a last line aligned left */
+  text-align: justify;
+  text-align-last: left;  
+  z-index: 99;
+  margin-top: 2rem;
+
+
+}
+
 
 /* BIG WEBSITE */
 @media all and (min-width: 1000px) {
@@ -229,7 +234,6 @@ a.tooltip-ref:hover + .is-tooltip{
     -webkit-text-size-adjust: 100%;
     font-size-adjust: 100%;
     }
-
  img.bg{
       position: absolute;
       width: 100%;
@@ -241,10 +245,6 @@ a.tooltip-ref:hover + .is-tooltip{
     display: none         }
       
 
-.mainText{
-      margin-top: 8rem;
-    }
-
 .mainText img { display: none }
 
 .titleHeader {
@@ -255,8 +255,8 @@ h1.titleHeader {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 2rem;
-  padding-top: 2.5rem;
-  padding-left: 5vw;
+  padding-top: 2rem;
+  padding-left: 4.8vw;
   z-index: 1;
   line-height: 1rem;
 }
@@ -342,7 +342,7 @@ z-index: 1;
 .img4 {
   position: absolute;
   width: 18px;
-  margin-left: 37rem;
+  margin-left: 37.5rem;
   top: 142.55rem;
   z-index: 1;
 }
@@ -463,9 +463,38 @@ z-index: 1;
     display: block;
   }
 
+
+.abstract p{
+
+  /* Justify text with a last line aligned left */
+text-align: justify;
+text-align-last: left;   
+/* display: inline-block; */
+-webkit-text-size-adjust: 100%;
+font-size-adjust: 100%;
+}
+
+.abstract{
+text-align: justify;
+text-align-last: left;   
+font-family: 'Andada Pro', serif;
+font-style: italic;
+padding-right: 6.9vw;
+padding-left: 6.9vw;
+font-size: 0.6rem;
+line-height: 1.2;
+  /* Justify text with a last line aligned left */
+text-align: justify;
+text-align-last: left;  
+z-index: 99;
+margin-top: 9rem;
+
+
+}
+
   ul{
-    margin-top: 20rem;
-     line-height: 1.5;
+    margin-top: 8rem;
+     line-height: 1.6;
   }
 
   .mainText p {
@@ -573,11 +602,6 @@ main{
 
 h4 {
   margin-left: 1em;
-}
-
-.abstract {
-  visibility: hidden;
-  color: black;
 }
 
 
