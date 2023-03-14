@@ -236,6 +236,9 @@ a.tooltip-ref:hover + .is-tooltip{
       padding-top: 14rem;
       z-index: 1;
       }
+
+  img.bg2{
+    display: none         }
       
 
 .mainText{
@@ -476,12 +479,22 @@ z-index: 1;
     img.bg{
       position: absolute;
       width: 100%;
-      padding-top: 7rem;
+      padding-top: 0rem;
       z-index: 1;
       padding-left: 0rem;
       padding-right: 0rem;
       
       }
+
+      img.bg2{
+        position: absolute;
+        width: 100%;
+        padding-top: 25rem;
+        z-index: 1;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        
+        }
 
       h1.titleHeader {
         font-family: 'Inter', sans-serif;
@@ -489,16 +502,18 @@ z-index: 1;
         font-size: 1.8rem;
         margin-top: 0rem;
         margin-bottom: -1rem;
-
-
     }
-      
+
+    .titleHeader{
+      padding-top: 1.5rem;
+    }
+
       h2.titleHeader {
         font-family: 'Inter', sans-serif;
         font-weight:  700;
         font-style: italic;
-        font-size: 0.8rem;
-        padding-left: 1.4rem;
+        font-size: 0.7rem;
+        padding-left: 1.3rem;
         padding-top: 0rem;
       }
 
