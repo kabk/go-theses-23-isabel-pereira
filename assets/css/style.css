@@ -199,7 +199,6 @@ font-size-adjust: 100%;
 font-size: 0.6rem;}
 
 .abstract{
-  position: relative;
   padding-left: 5vw;
   padding-right: 62vw;
   font-size: 0.6rem;
@@ -296,6 +295,11 @@ h2.titleHeader {
   padding-left: 5vw;
 
 }
+.test h2{
+  /* display: flex; */
+margin-left: 2vw;
+  margin-bottom: 1vw;
+}
 
 .sourcesList{
   max-width: 30vw;
@@ -306,17 +310,16 @@ h2.titleHeader {
   
 }
 
-  
 .img1 {
 position: absolute;
 width: 20px;
 margin-left: 8rem;
-top: 52.3rem;
+top: 64.75rem;
 z-index: 1;
 }
 
 .container:hover .img1 {
-  width: 1434.5px;
+  width: 820px;
   height: auto;
   transform-origin: top;
 }
@@ -326,13 +329,13 @@ z-index: 1;
   position: absolute;
   width: 24px;
   margin-left: 38.5rem;
-  top: 92.55rem;
+  top: 85.8rem;
   z-index: 1;
 }
 
 
 .container:hover .img2 {
-  width: 580px;
+  width: 590px;
   height: auto;
   transform-origin: top;
 }
@@ -341,8 +344,8 @@ z-index: 1;
 .img3 {
   position: absolute;
   width: 23px;
-  margin-left: 9.5rem;
-  top: 94.9rem;
+  margin-left: 4.2rem;
+  top: 89.8rem;
   z-index: 1;
  }
 
@@ -356,12 +359,12 @@ z-index: 1;
 .img4 {
   position: absolute;
   width: 18px;
-  margin-left: 37.5rem;
-  top: 142.55rem;
+  margin-left: 38.5rem;
+  top: 128.5rem;
   z-index: 1;
 }
 .container:hover .img4 {
-  width: 620px;
+  width: 590px;
   height: auto;
 }
 
@@ -369,7 +372,7 @@ z-index: 1;
   position: absolute;
   width: 20px;
   margin-left: 19.2rem;
-  top: 129rem;
+  top: 119.3rem;
   z-index: 1;
 }
 .container:hover .img5 {
@@ -380,8 +383,8 @@ z-index: 1;
 .img6 {
   position: absolute;
   width: 13px;
-  margin-left: 7rem;
-  top: 162.7rem;
+  margin-left: 4.2rem;
+  top: 158rem;
   z-index: 1;
 }
 .container:hover .img6 {
@@ -392,20 +395,20 @@ z-index: 1;
 .img7 {
   position: absolute;
   width: 20px;
-  margin-left: 13.7rem;
-  top: 199rem;
+  margin-left: 38.5rem;
+  top: 170.1rem;
   z-index: 1;
  }
  .container:hover .img7 {
-  width: 675px;
+  width: 590px;
   height: auto;
 }
 
 .img8 {
   position: absolute;
   width: 13.7px;
-  margin-left: 38.5rem;
-  top: 209.25rem;
+  margin-left: 28.5rem;
+  top: 192.2rem;
   z-index: 1;
  }
  .container:hover .img8 {
@@ -415,9 +418,9 @@ z-index: 1;
 
 .img9 {
   position: absolute;
-  width: 18px;
-  margin-left: 3.3rem;
-  top: 234.15rem;
+  width: 20px;
+  margin-left: 10rem;
+  top: 219.5rem;
   z-index: 1;
  }
  .container:hover .img9 {
@@ -428,20 +431,20 @@ z-index: 1;
 .img10 {
   position: absolute;
   width: 13px;
-  margin-left: 24rem;
-  top: 250.95rem;
+  margin-left: 38.5rem;
+  top: 226.35rem;
   z-index: 1;
  }
  .container:hover .img10{
-  width: 385px;
+  width: 588px;
   height: auto;
 }
 
 .img11 {
   position: absolute;
   width: 20px;
-  margin-left: 7.8rem;
-  top: 272.8rem;
+  margin-left: 4.2rem;
+  top: 264.5rem;
   z-index: 1;
  }
  .container:hover .img11{
@@ -452,12 +455,12 @@ z-index: 1;
 .img12 {
   position: absolute;
   width: 20px;
-  margin-left: 38.5rem;
-  top: 257.76rem; 
+  margin-left: 6.3rem;
+  top: 239.35rem; 
    z-index: 1;
  }
  .container:hover .img12{
-  width: 580px;
+  width: 869px;
   height: auto;
 }
 }
@@ -485,7 +488,7 @@ z-index: 1;
     text-align-last: left;  
     z-index: 99;
     margin-top: 2rem;
-  margin-bottom: 8vh;
+  margin-bottom: 10vh;
   padding-left: 0rem;
 
 }
@@ -618,16 +621,28 @@ main{
   width: 100%;
 }
 
+article{
+  padding-left: 0vw;
+  padding-right: 0vw;
+}
+.last{
+  padding-left: 0rem;
+}
 
   .test {
     /* display: flex; */
     font-size: 0.5rem;
     max-width: 100vw;
-    padding-left: 5vw;
+    padding-left: 0vw;
     font-size: 0.5rem;
     display: flex;
-  
   }
+  .test h2{
+    /* display: flex; */
+  margin-left: 3vw;
+    margin-bottom: 1vw;
+  }
+  
   
   .sourcesList{
     max-width: 30vw;
@@ -810,12 +825,6 @@ margin-top: 0em;
 
 }
 
-.test h2{
-  /* display: flex; */
-
-  margin-left: 2vw;
-  margin-bottom: 1vw;
-}
 
 
 #myBtn {
