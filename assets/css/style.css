@@ -475,19 +475,20 @@ z-index: 1;
     display: block;
   }
 
-  p.info {  
+  .info {  
     text-align-last: left;   
     font-family: 'Inter', sans-serif;
-    padding-right: 3vw;
-    padding-left: 3vw;
     font-size: 0.5rem;
     line-height: 1.2;
         /* Justify text with a last line aligned left */
     text-align: justify;
     text-align-last: left;  
     z-index: 99;
-    margin-top: 2rem;}
+    margin-top: 2rem;
+  margin-bottom: 8vh;
+  padding-left: 0rem;
 
+}
   p{
     padding-right: 3vw;
     padding-left: 3vw;
