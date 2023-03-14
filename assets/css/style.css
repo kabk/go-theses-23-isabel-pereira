@@ -464,7 +464,7 @@ z-index: 1;
   }
 
   ul{
-    margin-top: 5rem;
+    margin-top: 18rem;
   }
 
   .mainText p {
@@ -489,7 +489,7 @@ z-index: 1;
       img.bg2{
         position: absolute;
         width: 100%;
-        padding-top: 25rem;
+        padding-top: 31rem;
         z-index: 1;
         padding-left: 0rem;
         padding-right: 0rem;
@@ -517,16 +517,19 @@ z-index: 1;
         padding-top: 0rem;
       }
 
+      .container img{
+    display:none;
+   }
+
    img {
     position: relative;
     width: 100%; /* set the width of each image to 200px */
     padding: 3vw;
     grid-area: 0.5rem;
-
   }
 
   .mainText{
-    margin-top: 1rem;
+    margin-top: 10rem;
     width: 100%;
   }
 
