@@ -88,12 +88,6 @@ body {
   overflow-y:auto;
 }
 
-img.bg{
-position: absolute;
-width: 100%;
-padding-top: 14rem;
-z-index: 1;
-}
 
 a {
   color: var(--color-text-link);
@@ -235,6 +229,14 @@ a.tooltip-ref:hover + .is-tooltip{
     -webkit-text-size-adjust: 100%;
     font-size-adjust: 100%;
     }
+
+ img.bg{
+      position: absolute;
+      width: 100%;
+      padding-top: 14rem;
+      z-index: 1;
+      }
+      
 
 .mainText{
       margin-top: 8rem;
@@ -458,6 +460,10 @@ z-index: 1;
     display: block;
   }
 
+  ul{
+    margin-top: 5rem;
+  }
+
   .mainText p {
     /* paragraph style */
     font-family: 'Inter', sans-serif;
@@ -467,7 +473,32 @@ z-index: 1;
     padding-left: 3vw;
     }
 
- 
+    img.bg{
+      position: absolute;
+      width: 100%;
+      padding-top: 7rem;
+      z-index: 1;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      
+      }
+
+      h1.titleHeader {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 4rem;
+        margin-top: 0rem;
+        margin-bottom: -1rem;
+    }
+      
+      h2.titleHeader {
+        font-family: 'Inter', sans-serif;
+        font-weight:  700;
+        font-style: italic;
+        font-size: 0.8rem;
+        padding-left: 1.7rem;
+        padding-top: 0rem;
+      }
 
    img {
     position: relative;
@@ -480,20 +511,6 @@ z-index: 1;
   .mainText{
     margin-top: 1rem;
     width: 100%;
-  }
-
-
-  h1.titleHeader {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 1.8rem;
-}
-  
-  h2.titleHeader {
-    font-family: 'Inter', sans-serif;
-    font-weight:  700;
-    font-style: italic;
-    font-size: 1rem;
   }
 
   h2 {
