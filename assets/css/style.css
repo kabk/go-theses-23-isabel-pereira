@@ -493,7 +493,7 @@ margin-top: 9rem;
 }
 
   ul{
-    margin-top: 8rem;
+    margin-top: 1rem;
      line-height: 1.6;
   }
 
@@ -509,7 +509,7 @@ margin-top: 9rem;
     img.bg{
       position: absolute;
       width: 100%;
-      padding-top: 0rem;
+      padding-top: 3rem;
       z-index: 1;
       padding-left: 0rem;
       padding-right: 0rem;
@@ -522,7 +522,7 @@ margin-top: 9rem;
         z-index: 1;
         padding-left: 0rem;
         padding-right: 0rem;
-        bottom: -13vh;
+        bottom: -10vh;
         
         }
 
